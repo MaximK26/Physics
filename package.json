@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test pack",
+  "main": "main.min.js",
+  "scripts": {
+    "watch": "webpack --config webpack.dev.js --watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "webpack": "^4.29.6",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}
